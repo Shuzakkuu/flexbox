@@ -1,0 +1,52 @@
+
+
+.first{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+    
+}
+
+div{
+    border: solid black 2px;
+    size: 25vw;
+    
+}
+
+img{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 25vw;
+}
+
+.a{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.second{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 5vw;
+    width: 75vw;
+}
+
+.third{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 5vw;
+    width: 25vw;
+}
+
+.fourth{
+    display: flex;
+    flex-flow:  column-reverse;
+    justify-content: center;
+    margin-top: 5vw;
+    width: 25vw;
+}
